@@ -269,3 +269,48 @@ public static void testViewShowTodoList() {
         showTodoList();
     }
 }
+import java.util.HashSet;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author user
+ */
+public class Hashset {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+
+HashSet<String> set = new HashSet<String>();
+set.add("Eko");
+        set.add("Kurniawan");
+        set.add("saeppani"); 
+      set.add("Eko");
+        set.add("Kurniawan");
+      set.add("saeppani");
+      set.add("Eko");
+      set.add("Kurniawan");
+      set.add("saeppani");
+        
+      for(String value : set){
+            System.out.println(value);
+        }
+
+    }
+    }
+    
+
+
+run:
+Kurniawan
+Eko
+saeppani
+BUILD SUCCESSFUL (total time: 0 seconds)
