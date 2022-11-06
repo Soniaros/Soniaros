@@ -314,3 +314,101 @@ Kurniawan
 Eko
 saeppani
 BUILD SUCCESSFUL (total time: 0 seconds)
+    
+    
+    
+    /*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package belajaratribut;
+
+/**
+ *
+ * @author USER
+ */
+public class BelajarAtribut {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
+    
+}
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package belajaratribut;
+
+/**
+ *
+ * @author USER
+ */
+public class contohatribut {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        orang Suhe = new orang();
+        Suhe.nama = "Suhe";
+        Suhe.alamat = "Sumedang";
+        Suhe.menikah = false;
+        Suhe.umur = 25;
+        System.out.println(Suhe.nama);
+    }
+    
+}
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package belajaratribut;
+
+/**
+ *
+ * @author USER
+ */
+public class orang {
+    String nama;
+    String alamat;
+    int umur;
+    boolean menikah;
+}
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package belajarkelas;
+
+/**
+ *
+ * @author USER
+ */
+public class Manusia {
+    
+}
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package belajarkelas;
+
+/**
+ *
+ * @author USER
+ */
+public class buah {
+    
+}
+
+
